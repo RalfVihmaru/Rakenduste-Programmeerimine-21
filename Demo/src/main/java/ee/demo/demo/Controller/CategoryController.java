@@ -23,6 +23,6 @@ public class CategoryController {
     @PostMapping("categories")
     public String postCategory(@RequestBody Category category) {
         categoryService.saveCategory(category);
-        return "Uhke Kaader vark!" + category.getName();
+        return "Uhke Kaader vark! " + category.getName();
     }
 }
