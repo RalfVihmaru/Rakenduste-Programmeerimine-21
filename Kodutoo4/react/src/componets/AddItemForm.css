@@ -1,0 +1,40 @@
+form{
+    text-align: center;
+}
+.submit-button{
+    cursor: pointer;
+
+    width: 8%;
+    height: 25px;
+
+    margin-top: 10px;
+
+    color:lightyellow;
+    background-color: goldenrod;
+    border: darkgray;
+    outline: darkgray;
+    border-radius: 12px
+}
+.submit-button:hover{
+    background-color: darkgray;
+    color: white;
+    border-radius: 12px
+}
+.input-label{
+    color: whitesmoke;
+    background-color: rgb(113, 202, 78);
+    border-radius: 12px;
+    border: transparent;
+    height: 22px;
+    text-align: center;
+}.input-label:focus{
+    color: whitesmoke;
+    background-color: rgb(113, 202, 78);
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+::placeholder {
+    color: whitesmoke;
+    text-align: center;
+  }

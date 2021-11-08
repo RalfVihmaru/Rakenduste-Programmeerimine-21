@@ -1,0 +1,22 @@
+.navbar {
+    background-color: rgb(113, 202, 78);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.webbanner{
+
+}
+
+.cartico{
+    height: 50px;
+    margin: 50px;
+    
+}
+.cartico:hover{
+    height: 50px;
+    margin: 50px;
+    background-color: whitesmoke;
+}
